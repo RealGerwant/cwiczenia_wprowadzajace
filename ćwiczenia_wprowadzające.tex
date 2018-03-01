@@ -1,0 +1,149 @@
+%% Wzóra sprawozdania w LateXu
+
+\documentclass[polish,polish,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[cp1250]{inputenc}
+\usepackage{babel}
+\usepackage{pslatex}
+\usepackage{pgfplots}
+\usepackage{circuitikz} 
+\usepackage{setspace}
+\usepackage{caption}
+%\usetikzlibrary{circuits.ee.IEC}
+\usepackage{anysize}
+\marginsize{2.5cm}{2.5cm}{3cm}{3cm}
+
+\newcommand{\PRzFieldDsc}[1]{\sffamily\bfseries\scriptsize #1}
+\newcommand{\PRzFieldCnt}[1]{\textit{#1}}
+\newcommand{\PRzHeading}[8]{
+%% #1 - nazwa laboratorium
+%% #2 - kierunek 
+%% #3 - specjalnoœæ 
+%% #4 - rok studiów 
+%% #5 - symbol grupy lab.
+%% #6 - temat 
+%% #7 - numer lab.
+%% #8 - sk³ad grupy æwiczeniowej
+
+\begin{center}
+\begin{tabular}{ p{0.32\textwidth} p{0.15\textwidth} p{0.15\textwidth} p{0.12\textwidth} p{0.12\textwidth} }
+
+  &   &   &   &   \\
+\hline
+\multicolumn{5}{|c|}{}\\[-1ex]
+\multicolumn{5}{|c|}{{\LARGE #1}}\\
+\multicolumn{5}{|c|}{}\\[-1ex]
+
+\hline
+\multicolumn{1}{|l|}{\PRzFieldDsc{Kierunek}}	& \multicolumn{1}{|l|}{\PRzFieldDsc{Specjalnoœæ}}	& \multicolumn{1}{|l|}{\PRzFieldDsc{Rok studiów}}	& \multicolumn{2}{|l|}{\PRzFieldDsc{Symbol grupy lab.}} \\
+\multicolumn{1}{|c|}{\PRzFieldCnt{#2}}		& \multicolumn{1}{|c|}{\PRzFieldCnt{#3}}		& \multicolumn{1}{|c|}{\PRzFieldCnt{#4}}		& \multicolumn{2}{|c|}{\PRzFieldCnt{#5}} \\
+
+\hline
+\multicolumn{4}{|l|}{\PRzFieldDsc{Temat Laboratorium}}		& \multicolumn{1}{|l|}{\PRzFieldDsc{Numer lab.}} \\
+\multicolumn{4}{|c|}{\PRzFieldCnt{#6}}				& \multicolumn{1}{|c|}{\PRzFieldCnt{#7}} \\
+
+\hline
+\multicolumn{5}{|l|}{\PRzFieldDsc{Sk³ad grupy æwiczeniowej oraz numery indeksów}}\\
+\multicolumn{5}{|c|}{\PRzFieldCnt{#8}}\\
+
+\hline
+\multicolumn{3}{|l|}{\PRzFieldDsc{Uwagi}}	& \multicolumn{2}{|l|}{\PRzFieldDsc{Ocena}} \\
+\multicolumn{3}{|c|}{\PRzFieldCnt{\ }}		& \multicolumn{2}{|c|}{\PRzFieldCnt{\ }} \\
+
+\hline
+\end{tabular}
+\end{center}
+}
+
+\begin{document}
+
+\PRzHeading{Laboratorium Podstaw Elektroniki}{Informatyka}{--}{I}{nie mamy}{Æwiczenia wprowadzaj¹ce}{1}{Piotr Wiêtczak(132339), Robert Ciemny(136693), Kamil Basiukajc(136681)}{}
+
+
+\section{Æwiczenia wprowadaj¹ce}
+\subsection{Rezystory}
+\begin{spacing}{1,5}
+
+\captionof{table}{Wartoœci odczytów i pomiarów rezystancji}
+\[
+\begin{array}{|c|c|c|c|}
+\hline
+R&Barwa/oznaczenia&Odczyt&Pomiar \\ 
+\hline
+R_{1}&--&--&-- \\ 
+\hline
+R_{2}&--&--&-- \\ 
+\hline
+R_{3}&--&--&-- \\ 
+\hline
+R_{4}&--&--&-- \\ 
+\hline
+R_{5}&--&--&-- \\ 
+\hline
+R_{6}&--&--&-- \\ 
+\hline
+\end{array}
+\]
+
+\subsection{Kondensatory}
+
+	
+	\captionof{table}{Wartoœci odczytów i pomiarów pojemnoœci}
+	\[
+	\begin{array}{|c|c|c|c|}
+	\hline
+	C&Oznaczenia&Odczyt&Pomiar \\ 
+	\hline
+	C_{1}&--&--&-- \\ 
+	\hline
+	C_{2}&--&--&-- \\ 
+	\hline
+	C_{3}&--&--&-- \\ 
+	\hline
+	C_{4}&--&--&-- \\ 
+	\hline
+	C_{5}&--&--&-- \\ 
+	\hline
+	C_{6}&--&--&-- \\ 
+	\hline
+	\end{array}
+	\]
+	
+	
+\subsection{Cewki}
+
+\captionof{table}{Wartoœci odczytów i pomiarów indukcyjnoœci}
+\[
+\begin{array}{|c|c|}
+\hline
+L&Pomiar \\
+\hline
+L_{1}&-- \\
+\hline
+\end{array}
+\]
+
+\section{Obwody}
+\subsection{Obliczanie rezystancji zastêpczej}
+
+\begin{figure}[!h]
+	\centering
+	\begin{circuitikz}[scale=1,european,american]
+		
+		\draw
+		(0,0) node[anchor=west] {A}
+		to[short, o-] (-3,0) 
+		(-3,0) to (-3,2) --
+		(-3,2) to (3,2) --
+		(3,2) to (3,0) --
+		(2,0) node[anchor=east] {B}
+		to[short ,-o]  (2,0)
+	\end{circuitikz}
+	\caption{Obwód rezystancyjny}
+	\label{fig:rlc}
+\end{figure}
+
+\end{spacing}
+\end{document}
+
+
