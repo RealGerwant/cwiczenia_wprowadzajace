@@ -152,7 +152,7 @@ L_{1}&-- \\
 		(4,4) to (4,2)
 		(6,4) to (6,0)--
 		(2,0) node[anchor=east] {B}
-		to[short ,-o]  (2,0)
+		to[short ,-o]  (2,0);
 	\end{circuitikz}
 	\caption{Obwód rezystancyjny}
 	\label{fig:rlc}
@@ -174,7 +174,7 @@ L_{1}&-- \\
 		to (0,-1.5)
 		(0,-1)node[anchor=east] {B}
 		to [short, o-] (0,-1.5)
-		(2,0.5) to [european resistor, l=$1k\Omega$, a=$R_{1}$] (2,-1.5)
+		(2,0.5) to [european resistor, l=$1k\Omega$, a=$R_{1}$] (2,-1.5);
 
 	\end{circuitikz}
 	\caption{(a)}
@@ -189,14 +189,46 @@ L_{1}&-- \\
 		\draw
 		(0,0) to [european resistor, l=$R_{1}$, a = $1k\Omega$] (0,2)
 		(0,2) to (2,2)
-		to [european resistor , l=$R_{3}$,a=$1k\Omega$] (4,2)
-		to [european resistor, a=$ R_{5} $, l = $ 100\Omega $] (4,0)
+		to [european resistor , l=$R_{3}$,a=$1k\Omega$] (5,2)
+		to [european resistor, a=$ R_{5} $, l = $ 100\Omega $] (5,0)
 			to [european resistor, a=$R_{4}$, l=$100\Omega$] (2,0)
 			to (0,0)
+		(2,2) to [european resistor, l= $2k\Omega$, a= $R_{2}$] (2,0)
+		(2.5,-1) node[anchor = west] {A}
+		to [short, o-] (2.5,0) 
+		(4.5,-1) node[anchor = east] {B}
+		to [short, o-] (4.5,0);
 	\end{circuitikz}
 	\caption{(b)}
 	\label{fig:rlc}
 \end{figure}
+
+
+\begin{figure}[!h]
+	\centering
+	\begin{circuitikz}[scale=1,european]
+		
+		\draw
+	(0,-0.5) node[anchor = north] {A}
+	to [short, o- ] (0,0)
+	(0,0) to (2,0) 
+	to [european resistor, l=$R_{4}$, a=$100\Omega$] (4,0)
+	to (6,0)
+	(2,0) to (2,2)
+	to [european resistor, l=$R_{4}$, a = $1k\Omega$] (4,2)
+	to (4,0)
+	(5,0) to [european resistor, a = $ R_{2} $, l = $ 2k\Omega $] (5,-2)
+	to (6,-2)
+	(1,0) to [european resistor, a= $R_{1}$, l=$2k\Omega$] (1,-2)
+	to (0,-2)
+	to [short, -o] (0,-1.5)
+	(0,-1.5) node [anchor = south] {B};
+	\end{circuitikz}
+	\caption{(c)}
+	\label{fig:rlc}
+\end{figure}
+
+
 
 \end{spacing}
 \end{document}
