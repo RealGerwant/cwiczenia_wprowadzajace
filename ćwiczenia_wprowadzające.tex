@@ -126,8 +126,7 @@ L_{1}&-- \\
 \section{Obwody}
 \subsection{Obliczanie rezystancji zastêpczej}
 
-\begin{figure}[h]
-	\centering
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
@@ -154,36 +153,30 @@ L_{1}&-- \\
 		(2,0) node[anchor=east] {B}
 		to[short ,-o]  (2,0);
 	\end{circuitikz}
-	\caption{Obwód rezystancyjny}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{Obwód rezystancyjny}
 
 
-
-\begin{figure}[h]
-	\centering
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
 		(0,0) node[anchor=west] {A}
 		to[short, o-] (0,0.5) 
 		(0,0.5) to (3,0.5)
-		(3,0.5) to [european resistor, l=$R_{2}$, a=$2k\Omega$] (5,0.5)
+		(3,0.5) to [european resistor, l=$R_{2}$, a=$2.2k\Omega$] (5,0.5)
 		(5,0.5) to (5,-1.5)
-		(5,-1.5) to [european resistor, a=$R_{3}$,l=$2k\Omega$] (3,-1.5)
+		(5,-1.5) to [european resistor, a=$R_{3}$,l=$2.2k\Omega$] (3,-1.5)
 		to (0,-1.5)
 		(0,-1)node[anchor=east] {B}
 		to [short, o-] (0,-1.5)
 		(2,0.5) to [european resistor, l=$1k\Omega$, a=$R_{1}$] (2,-1.5);
 
 	\end{circuitikz}
-	\caption{(a)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(a)}
 
-
-\begin{figure}[h]
-	\centering
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
@@ -193,19 +186,18 @@ L_{1}&-- \\
 		to [european resistor, a=$ R_{5} $, l = $ 100\Omega $] (5,0)
 			to [european resistor, a=$R_{4}$, l=$100\Omega$] (2,0)
 			to (0,0)
-		(2,2) to [european resistor, l= $2k\Omega$, a= $R_{2}$] (2,0)
+		(2,2) to [european resistor, l= $2.2k\Omega$, a= $R_{2}$] (2,0)
 		(2.5,-1) node[anchor = west] {A}
 		to [short, o-] (2.5,0) 
 		(4.5,-1) node[anchor = east] {B}
 		to [short, o-] (4.5,0);
 	\end{circuitikz}
-	\caption{(b)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(b)}
 
 
-\begin{figure}[h]
-	\centering
+
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
@@ -217,30 +209,28 @@ L_{1}&-- \\
 	(2,0) to (2,2)
 	to [european resistor, l=$R_{4}$, a = $1k\Omega$] (4,2)
 	to (4,0)
-	(5,0) to [european resistor, a = $ R_{2} $, l = $ 2k\Omega $] (5,-2)
+	(5,0) to [european resistor, a = $ R_{2} $, l = $ 2.2k\Omega $] (5,-2)
 	to (6,-2)
-	(1,0) to [european resistor, a= $R_{1}$, l=$2k\Omega$] (1,-2)
+	(1,0) to [european resistor, a= $R_{1}$, l=$2.2k\Omega$] (1,-2)
 	to (0,-2)
 	to [short, -o] (0,-1.5)
 	(0,-1.5) node [anchor = south] {B};
 	\end{circuitikz}
-	\caption{(c)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(c)}
 
 
-\begin{figure}[h]
-	\centering
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
 		(0,0) to [european resistor, l=$R_{1}$, a= $ 1k\Omega $] (2,0)
-		to [european resistor, l=$ R_{2} $,a = $ 2k\Omega $] (5,0)
+		to [european resistor, l=$ R_{2} $,a = $ 2.2k\Omega $] (5,0)
 		to [european resistor, l=$ R_{5} $,a = $ 100\Omega $] (7,0)
 		to (7,1)
 		to (0,1)
 		to (0,0)
-		(2,0) to  [european resistor, a=$ R_{3} $,l=$ 2k\Omega $] (2,-3)
+		(2,0) to  [european resistor, a=$ R_{3} $,l=$ 2.2k\Omega $] (2,-3)
 		to (6,-3)
 		to [short,-o] (6,-2.5)
 		(6,-2.5) node [anchor = west] {B}
@@ -250,12 +240,12 @@ L_{1}&-- \\
 		to [short,-o](6,-1.5)
 		(6,-1.5) node [anchor = west] {A};
 	\end{circuitikz}
-	\caption{(d)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(d)}
 
-\begin{figure}[h]
-	\centering
+
+
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
@@ -265,20 +255,19 @@ L_{1}&-- \\
 		(0,1.5) node [anchor = north] {A}
 		to [short, o-] (0,2)
 		to (3,2)
-		to [european resistor, l=$R_{3}$, a= $ 2k\Omega $] (5,2)
+		to [european resistor, l=$R_{3}$, a= $ 2.2k\Omega $] (5,2)
 		to (7,2)
 		(3,2) to (3,3.5)
 		to [european resistor, l =$R_{4}$, a=$ 1k\Omega $] (5,3.5)
 		to (5,2)
-		(2,2) to [european resistor, a=$ R_{1} $,l=$ 2k\Omega $] (2,0)
-		(6,2) to [european resistor, a=$ R2_{2} $,l=$ 2k\Omega $] (6,0);
+		(2,2) to [european resistor, a=$ R_{1} $,l=$ 2.2k\Omega $] (2,0)
+		(6,2) to [european resistor, a=$ R2_{2} $,l=$ 2.2k\Omega $] (6,0);
 	\end{circuitikz}
-	\caption{(e)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(e)}
 
-\begin{figure}[h]
-	\centering
+
+\[
 	\begin{circuitikz}[scale=1,european]
 		
 		\draw
@@ -291,21 +280,19 @@ L_{1}&-- \\
 		to [european resistor, a=$ 100\Omega $,l=$ R_{1} $] (2,2)
 		to (4,2)
 		to (4,1)
-		to [european resistor, a=$ R_{2} $,l=$ 2k\Omega $] (4,-1)
+		to [european resistor, a=$ R_{2} $,l=$ 2.2k\Omega $] (4,-1)
 		to (2,-1)
-		(4,1) to [european resistor, l=$ R_{4} $,a =$ 2k\Omega $] (7,1)
+		(4,1) to [european resistor, l=$ R_{4} $,a =$ 2.2k\Omega $] (7,1)
 		(3,2) to [european resistor, l=$ R_{3} $,a=$ 1k\Omega $] (3,5)
 		to (7,5) 
 		to [short, -o] (7,4.5)
 		(7,4.5) node [anchor = north ]	{A};
+
 	\end{circuitikz}
-	\caption{(f)}
-	\label{fig:rlc}
-\end{figure}
+	\]
+	\captionof{figure}{(f)}
 
 
-
-\begin{figure}[h]
 	
 	\section{Pomiary napiêcia}
 	\subsection{Pomiar wartosci napiêæ wyjœciowych z zasilacza}
@@ -333,7 +320,7 @@ L_{1}&-- \\
 	\end{array}
 	\]
 	
-\end{figure}
+
 \end{spacing}
 \end{document}
 
