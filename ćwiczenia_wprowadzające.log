@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  1 MAR 2018 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  3 MAR 2018 15:05
 entering extended mode
 **./ćwiczenia_wprowadzające.tex
 (ćwiczenia_wprowadzające.tex
@@ -580,7 +580,14 @@ Package: `anysize' 1.0 <1994/08/13>
 \@Rightmargin=\dimen189
 \@Topmargin=\dimen190
 \@Bottommargin=\dimen191
-) (ćwiczenia_wprowadzające.aux)
+) (ćwiczenia_wprowadzające.aux
+
+LaTeX Warning: Label `fig:rlc' multiply defined.
+
+
+LaTeX Warning: Label `fig:rlc' multiply defined.
+
+)
 \openout1 = `ćwiczenia_wprowadzające.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -592,8 +599,7 @@ LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 58.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 58
 .
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 58.
@@ -741,25 +747,76 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2] (ćwiczenia_wprowadzające.aux) ) 
+
+! Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 	\end{circuitikz}
+                       
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@baseline 
+                         
+l.179 	\end{circuitikz}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 	\end{circuitikz}
+                       
+(That was another \errmessage.)
+
+! Undefined control sequence.
+<argument> \pgf@baseline 
+                         
+l.196 	\end{circuitikz}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3] (ćwiczenia_wprowadzające.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 30619 strings out of 493312
- 813601 string characters out of 3138898
- 1031376 words of memory out of 3000000
- 33714 multiletter control sequences out of 15000+200000
+ 30910 strings out of 493312
+ 819301 string characters out of 3138898
+ 1043199 words of memory out of 3000000
+ 34005 multiletter control sequences out of 15000+200000
  38604 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,96p,747b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
-ps/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ćwiczenia_wprowadzające.pdf (2 pages, 73715 bytes).
+ 62i,8n,96p,747b,936s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbo
+l/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ćwiczenia_wprowadzające.pdf (3 pages, 75922 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
