@@ -229,6 +229,31 @@ L_{1}&-- \\
 \end{figure}
 
 
+\begin{figure}[!h]
+	\centering
+	\begin{circuitikz}[scale=1,european]
+		
+		\draw
+		(0,0) to [european resistor, l=$R_{1}$, a= $ 1k\Omega $] (2,0)
+		to [european resistor, l=$ R_{2} $,a = $ 2k\Omega $] (5,0)
+		to [european resistor, l=$ R_{5} $,a = $ 100\Omega $] (7,0)
+		to (7,1)
+		to (0,1)
+		to (0,0)
+		(2,0) to  [european resistor, a=$ R_{3} $,l=$ 2k\Omega $] (2,-3)
+		to (6,-3)
+		to [short,-o] (6,-2.5)
+		(6,-2.5) node [anchor = west] {B}
+		(5,-3) to [european resistor, l=$ R_{4} $, a=$ 1k\Omega $] (5,-1)
+		to (5,0)
+		(5,-1) to (6,-1)
+		to [short,-o](6,-1.5)
+		(6,-1.5) node [anchor = west] {A}
+	\end{circuitikz}
+	\caption{(d)}
+	\label{fig:rlc}
+\end{figure}
+
 
 \end{spacing}
 \end{document}
