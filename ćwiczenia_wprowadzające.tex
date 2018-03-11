@@ -9,9 +9,21 @@
 \usepackage{circuitikz} 
 \usepackage{setspace}
 \usepackage{caption}
+\usepackage{amssymb}
+\usepackage{amsmath}
 %\usetikzlibrary{circuits.ee.IEC}
 \usepackage{anysize}
-\marginsize{2.5cm}{2.5cm}{3cm}{3cm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\urlstyle{same}
+
+\marginsize{2.5cm}{2.5cm}{2cm}{2cm}
 
 \newcommand{\PRzFieldDsc}[1]{\sffamily\bfseries\scriptsize #1}
 \newcommand{\PRzFieldCnt}[1]{\textit{#1}}
@@ -55,6 +67,8 @@
 \end{center}
 }
 
+
+
 \begin{document}
 
 \PRzHeading{Laboratorium Podstaw Elektroniki}{Informatyka}{--}{I}{nie mamy}{Æwiczenia wprowadzaj¹ce}{1}{Piotr Wiêtczak(132339), Robert Ciemny(136693), Kamil Basiukajc(136681)}{}
@@ -62,10 +76,16 @@
 
 \section{Æwiczenia wprowadaj¹ce}
 \subsection{Rezystory}
+
+W tym æwiczeniu nale¿y odczytaæ wartoœæ rezystancji na podstawie kodu paskowego rezystorów lub oznaczeñ
+oraz dokonaæ pomiaru wartoœci rezystancji przy pomocy multimetru RIGOL DM3051, pamiêtaj¹c przy tym o
+poprawnym zapisaniu jednostek podczas wype³niania tabeli \hyperref[eq:tab1]{1}
+
 \begin{spacing}{1,5}
 
 \captionof{table}{Wartoœci odczytów i pomiarów rezystancji}
-\[
+\begin{equation*}
+\label{eq:tab1}
 \begin{array}{|c|c|c|c|}
 \hline
 R&Barwa/oznaczenia&Odczyt&Pomiar \\ 
@@ -83,37 +103,47 @@ R_{5}&$ br¹zowy - czarny - czerwony - z³oty $&1k \Omega&0.976 \Omega \\
 R_{6}&$ 10R $&10 \Omega&10.71 \Omega \\ 
 \hline
 \end{array}
-\]
+\end{equation*}
 
 \subsection{Kondensatory}
 
+W tym æwiczeniu nale¿y odczytaæ wartoœæ pojemnoœci kondensatorów na podstawie ich oznaczeñ oraz dokonaæ
+pomiaru wartoœci pojemnoœci przy pomocy mostka pomiarowego, pamiêtaj¹c przy tym o poprawnym
+zapisaniu jednostek podczas wype³niania tabeli \hyperref[eq:tab2]{2}.
 	
+
 	\captionof{table}{Wartoœci odczytów i pomiarów pojemnoœci}
-	\[
-	\begin{array}{|c|c|c|c|}
-	\hline
-	C&Oznaczenia&Odczyt&Pomiar \\ 
-	\hline
-	C_{1}& 47 \mu F \quad 35V &47 \mu F&44.31\mu F \\ 
-	\hline
-	C_{2}&100 \mu F \quad 63V &100 \mu F&99.14 \mu F \\ 
-	\hline
-	C_{3}&2.2 \mu F \quad 50V &2.2 \mu F&2.131 \mu F\\ 
-	\hline
-	C_{4}&22 \mu F \quad 25V&22 \mu F&22.081 \mu F  \\ 
-	\hline
-	C_{5}&103 \quad 10nF&10nF&9.22nF \\ 
-	\hline
-	C_{6}&102 \quad 1nF&1nF&0.912nF \\ 
-	\hline
+\begin{equation*}
+\label{eq:tab2}
+		\begin{array}{|c|c|c|c|}
+		\hline
+		C&Oznaczenia&Odczyt&Pomiar \\ 
+		\hline
+		C_{1}& 47 \mu F \quad 35V &47 \mu F&44.31\mu F \\ 
+		\hline
+		C_{2}&100 \mu F \quad 63V &100 \mu F&99.14 \mu F \\ 
+		\hline
+		C_{3}&2.2 \mu F \quad 50V &2.2 \mu F&2.131 \mu F\\ 
+		\hline
+		C_{4}&22 \mu F \quad 25V&22 \mu F&22.081 \mu F  \\ 
+		\hline
+		C_{5}&103 \quad 10nF&10nF&9.22nF \\ 
+		\hline
+		C_{6}&102 \quad 1nF&1nF&0.912nF \\ 
+		\hline
 	\end{array}
-	\]
+\end{equation*}
+
 	
 	
 \subsection{Cewki}
 
+W tym æwiczeniu nale¿y dokonaæ pomiaru indukcyjnoœci wybranej cewki przy pomocy mostka pomiarowego,
+pamiêtaj¹c przy tym o poprawnym zapisaniu jednostek podczas wype³niania tabeli \hyperref[eq:tab3]{3}.
+
 \captionof{table}{Wartoœci odczytów i pomiarów indukcyjnoœci}
-\[
+\begin{equation*}
+\label{eq:tab3}
 \begin{array}{|c|c|}
 \hline
 L&Pomiar \\
@@ -121,11 +151,13 @@ L&Pomiar \\
 L_{1}&30.8 \quad \mu H \\
 \hline
 \end{array}
-\]
+\end{equation*}
 
 \section{Obwody}
 \subsection{Obliczanie rezystancji zastêpczej}
-
+\subsubsection{Cel}
+W tym æwiczeniu nale¿y obliczyæ rezystancjê zastêpcz¹ od strony zacisków AB dla schematu przedstawionego
+na rys. 1 oraz zapisaæ pe³ne wyprowadzenie wzoru rezystancji zastêpczej
 \[
 	\begin{circuitikz}[scale=1,european]
 		
@@ -156,141 +188,266 @@ L_{1}&30.8 \quad \mu H \\
 	\]
 	\captionof{figure}{Obwód rezystancyjny}
 
+\subsubsection{Wyprowadzenie wzoru i obliczenie rezystancji zastêpczej}
 
-\[
+\subsection{Budowanie obwodów rezystancyjnych}
+\subsubsection{Cel}
+Celem tego æwiczenia jest:
+\begin{itemize}
+	\item Przy pomocy stykowej p³ytki prototypowej zbudowaæ wszystkie obwody pokazane na rysunkach 2, 4, 6, 8, 10, 12.
+	\item Przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji dokonaæ pomiaru rezystancji
+	zastêpczej od strony zacisków AB.
+	\item Wyprowadziæ wzory na poszczególne rezystancje zastêpcze od strony zacisków AB.
+	\item Napisaæ z czego wynikaj¹ ró¿nice miêdzy pomiarem, a obliczeniami.
+\end{itemize}
+\subsubsection{Obwód (a)}
+
+\begin{equation*}
+\label{eq:rys2}
+\begin{circuitikz}[scale=1,european]
+\draw
+(0,0) node[anchor=west] {A}
+to[short, o-] (0,0.5) 
+(0,0.5) to (3,0.5)
+(3,0.5) to [european resistor, l=$R_{2}$, a=$2.2k\Omega$] (5,0.5)
+(5,0.5) to (5,-1.5)
+(5,-1.5) to [european resistor, a=$R_{3}$,l=$2.2k\Omega$] (3,-1.5)
+to (0,-1.5)
+(0,-1)node[anchor=east] {B}
+to [short, o-] (0,-1.5)
+(2,0.5) to [european resistor, l=$1k\Omega$, a=$R_{1}$] (2,-1.5);
+\end{circuitikz}
+\end{equation*}
+\captionof{figure}{(a)}
+
+\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys3]{3}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{a_bb.pdf}
+	\caption{obwód (a)}
+	\label{fig:rys3}
+\end{figure}
+\subsubsection*{Pomiar rezystancji}
+Dla obwodu z rysunku \hyperref[eq:rys2]{2} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $0.808k \Omega$.
+
+\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys2]{2}}
+	\begin{gather*}
+	R_{23}=R_{2}+R_{3}  \\
+	R_{z}=\dfrac{1}{\dfrac{1}{R_{23}} + \dfrac{1}{R_{1}}} = \dfrac{(R_{2}+R_{3})R_{1}}{R_{1}+R_{2}+R_{3}}\\
+	R_{z}=\dfrac{(2200\Omega+2200\Omega)1000\Omega}{1000\Omega + 2200\Omega + 2200\Omega} = \dfrac{4400000\Omega}{5400\Omega} \approx 814.8148 \Omega
+	\end{gather*}
+	
+\subsubsection{Obwód (b)}
+
+\begin{equation}
+\label{eq:rys4}
 	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-		(0,0) node[anchor=west] {A}
-		to[short, o-] (0,0.5) 
-		(0,0.5) to (3,0.5)
-		(3,0.5) to [european resistor, l=$R_{2}$, a=$2.2k\Omega$] (5,0.5)
-		(5,0.5) to (5,-1.5)
-		(5,-1.5) to [european resistor, a=$R_{3}$,l=$2.2k\Omega$] (3,-1.5)
-		to (0,-1.5)
-		(0,-1)node[anchor=east] {B}
-		to [short, o-] (0,-1.5)
-		(2,0.5) to [european resistor, l=$1k\Omega$, a=$R_{1}$] (2,-1.5);
-
-	\end{circuitikz}
-	\]
-	\captionof{figure}{(a)}
-
-\[
-	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-		(0,0) to [european resistor, l=$R_{1}$, a = $1k\Omega$] (0,2)
-		(0,2) to (2,2)
-		to [european resistor , l=$R_{3}$,a=$1k\Omega$] (5,2)
-		to [european resistor, a=$ R_{5} $, l = $ 100\Omega $] (5,0)
-			to [european resistor, a=$R_{4}$, l=$100\Omega$] (2,0)
-			to (0,0)
-		(2,2) to [european resistor, l= $2.2k\Omega$, a= $R_{2}$] (2,0)
-		(2.5,-1) node[anchor = west] {A}
-		to [short, o-] (2.5,0) 
-		(4.5,-1) node[anchor = east] {B}
-		to [short, o-] (4.5,0);
-	\end{circuitikz}
-	\]
+\draw
+(0,0) to [european resistor, l=$R_{1}$, a = $1k\Omega$] (0,2)
+(0,2) to (2,2)
+to [european resistor , l=$R_{3}$,a=$1k\Omega$] (5,2)
+to [european resistor, a=$ R_{5} $, l = $ 100\Omega $] (5,0)
+to [european resistor, a=$R_{4}$, l=$100\Omega$] (2,0)
+to (0,0)
+(2,2) to [european resistor, l= $2.2k\Omega$, a= $R_{2}$] (2,0)
+(2.5,-1) node[anchor = west] {A}
+to [short, o-] (2.5,0) 
+(4.5,-1) node[anchor = east] {B}
+to [short, o-] (4.5,0);
+\end{circuitikz}
+\end{equation}
 	\captionof{figure}{(b)}
+	
+	\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+	Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys5]{5}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.9]{b_bb.pdf}
+		\caption{obwód (b)}
+		\label{fig:rys5}
+	\end{figure}
+	\subsubsection*{Pomiar rezystancji}
+	Dla obwodu z rysunku \hyperref[eq:rys4]{4} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $95.5k \Omega$.
+	
+	\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys4]{4}}
+	
+	\begin{gather*}
+	R_{12}=\dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}} \\
+	R_{1235} = R_{12} + R_{3} + R_{5} \\
+	R_{z} = \dfrac{1}{\dfrac{1}{R_{4}} +  \dfrac{1}{ \dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}} + R_{3} + R_{5}}}\\
+	R_{z} = \dfrac{1}{\dfrac{1}{100\Omega}} +  \dfrac{1}{ \dfrac{1}{\dfrac{1}{1000\Omega} + \dfrac{1}{2200 \Omega}} + 1000\Omega + 100\Omega} = \dfrac{14300}{151} \approx 94.7\Omega
+	\end{gather*}
 
+\subsubsection{Obwód (c)}
 
-
-\[
+\begin{equation*}
+\label{eq:rys6}
 	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-	(0,-0.5) node[anchor = north] {A}
-	to [short, o- ] (0,0)
-	(0,0) to (2,0) 
-	to [european resistor, l=$R_{4}$, a=$100\Omega$] (4,0)
-	to (6,0)
-	(2,0) to (2,2)
-	to [european resistor, l=$R_{4}$, a = $1k\Omega$] (4,2)
-	to (4,0)
-	(5,0) to [european resistor, a = $ R_{2} $, l = $ 2.2k\Omega $] (5,-2)
-	to (6,-2)
-	(1,0) to [european resistor, a= $R_{1}$, l=$2.2k\Omega$] (1,-2)
-	to (0,-2)
-	to [short, -o] (0,-1.5)
-	(0,-1.5) node [anchor = south] {B};
-	\end{circuitikz}
-	\]
+\draw
+(0,-0.5) node[anchor = north] {A}
+to [short, o- ] (0,0)
+(0,0) to (2,0) 
+to [european resistor, l=$R_{4}$, a=$100\Omega$] (4,0)
+to (6,0)
+(2,0) to (2,2)
+to [european resistor, l=$R_{4}$, a = $1k\Omega$] (4,2)
+to (4,0)
+(5,0) to [european resistor, a = $ R_{2} $, l = $ 2.2k\Omega $] (5,-2)
+to (6,-2)
+(1,0) to [european resistor, a= $R_{1}$, l=$2.2k\Omega$] (1,-2)
+to (0,-2)
+to [short, -o] (0,-1.5)
+(0,-1.5) node [anchor = south] {B};
+\end{circuitikz}
+\end{equation*}
 	\captionof{figure}{(c)}
+	
+\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys7]{7}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{c_bb.pdf}
+	\caption{obwód (c)}
+	\label{fig:rys7}
+\end{figure}
+\subsubsection*{Pomiar rezystancji}
+Dla obwodu z rysunku \hyperref[eq:rys6]{6} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $2161.56 \Omega$.
 
+\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys6]{6}}	
+	\begin{gather*}
+	R_{z} = R_{1}\\
+	R_{z} = 2200\Omega
+	\end{gather*}
 
-\[
+\subsubsection{Obwód (d)}
+
+\begin{equation*}
+\label{eq:rys8}
 	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-		(0,0) to [european resistor, l=$R_{1}$, a= $ 1k\Omega $] (2,0)
-		to [european resistor, l=$ R_{2} $,a = $ 2.2k\Omega $] (5,0)
-		to [european resistor, l=$ R_{5} $,a = $ 100\Omega $] (7,0)
-		to (7,1)
-		to (0,1)
-		to (0,0)
-		(2,0) to  [european resistor, a=$ R_{3} $,l=$ 2.2k\Omega $] (2,-3)
-		to (6,-3)
-		to [short,-o] (6,-2.5)
-		(6,-2.5) node [anchor = west] {B}
-		(5,-3) to [european resistor, l=$ R_{4} $, a=$ 1k\Omega $] (5,-1)
-		to (5,0)
-		(5,-1) to (6,-1)
-		to [short,-o](6,-1.5)
-		(6,-1.5) node [anchor = west] {A};
-	\end{circuitikz}
-	\]
+\draw
+(0,0) to [european resistor, l=$R_{1}$, a= $ 1k\Omega $] (2,0)
+to [european resistor, l=$ R_{2} $,a = $ 2.2k\Omega $] (5,0)
+to [european resistor, l=$ R_{5} $,a = $ 100\Omega $] (7,0)
+to (7,1)
+to (0,1)
+to (0,0)
+(2,0) to  [european resistor, a=$ R_{3} $,l=$ 2.2k\Omega $] (2,-3)
+to (6,-3)
+to [short,-o] (6,-2.5)
+(6,-2.5) node [anchor = west] {B}
+(5,-3) to [european resistor, l=$ R_{4} $, a=$ 1k\Omega $] (5,-1)
+to (5,0)
+(5,-1) to (6,-1)
+to [short,-o](6,-1.5)
+(6,-1.5) node [anchor = west] {A};
+\end{circuitikz}
+\end{equation*}
 	\captionof{figure}{(d)}
+	
+\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys9]{9}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{d_bb.pdf}
+	\caption{obwód (d)}
+	\label{fig:rys9}
+\end{figure}
+\subsubsection*{Pomiar rezystancji}
+Dla obwodu z rysunku \hyperref[eq:rys8]{8} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $739.36 \Omega$.
 
+\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys8]{8}}	
+\begin{gather*}
+R_{z} = R_{1}\\
+R_{z} = 2200\Omega
+\end{gather*}
 
+\subsubsection{Obwód (e)}
 
-\[
+\begin{equation*}
+\label{eq:rys10}
 	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-		(0,0.5) node [anchor = south] {B}
-		to [short, o-] (0,0)
-		to (7,0)
-		(0,1.5) node [anchor = north] {A}
-		to [short, o-] (0,2)
-		to (3,2)
-		to [european resistor, l=$R_{3}$, a= $ 2.2k\Omega $] (5,2)
-		to (7,2)
-		(3,2) to (3,3.5)
-		to [european resistor, l =$R_{4}$, a=$ 1k\Omega $] (5,3.5)
-		to (5,2)
-		(2,2) to [european resistor, a=$ R_{1} $,l=$ 2.2k\Omega $] (2,0)
-		(6,2) to [european resistor, a=$ R2_{2} $,l=$ 2.2k\Omega $] (6,0);
-	\end{circuitikz}
-	\]
+
+\draw
+(0,0.5) node [anchor = south] {B}
+to [short, o-] (0,0)
+to (7,0)
+(0,1.5) node [anchor = north] {A}
+to [short, o-] (0,2)
+to (3,2)
+to [european resistor, l=$R_{3}$, a= $ 2.2k\Omega $] (5,2)
+to (7,2)
+(3,2) to (3,3.5)
+to [european resistor, l =$R_{4}$, a=$ 1k\Omega $] (5,3.5)
+to (5,2)
+(2,2) to [european resistor, a=$ R_{1} $,l=$ 2.2k\Omega $] (2,0)
+(6,2) to [european resistor, a=$ R2_{2} $,l=$ 2.2k\Omega $] (6,0);
+\end{circuitikz}
+\end{equation*}
 	\captionof{figure}{(e)}
+	
+\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys11]{11}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{e_bb.pdf}
+	\caption{obwód (e)}
+	\label{fig:rys11}
+\end{figure}
+\subsubsection*{Pomiar rezystancji}
+Dla obwodu z rysunku \hyperref[eq:rys10]{10} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $69\Omega$.
 
+\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys10]{10}}	
+\begin{gather*}
+R_{z} = R_{1}\\
+R_{z} = 2200\Omega
+\end{gather*}
 
-\[
+\subsubsection{Obwód (f)}
+
+\begin{equation*}
+\label{eq:rys12}
 	\begin{circuitikz}[scale=1,european]
-		
-		\draw
-		(0,0) to (0,-2)
-		to (7,-2)
-		to [short, -o] (7,2.5)
-		(7,2.5) node [anchor = south]	{B}
-		(0,0) to [european resistor, l=$ R_{5} $, a=$ 1k\Omega $] (2,0)
-		(2,-1) to (2,0)
-		to [european resistor, a=$ 100\Omega $,l=$ R_{1} $] (2,2)
-		to (4,2)
-		to (4,1)
-		to [european resistor, a=$ R_{2} $,l=$ 2.2k\Omega $] (4,-1)
-		to (2,-1)
-		(4,1) to [european resistor, l=$ R_{4} $,a =$ 2.2k\Omega $] (7,1)
-		(3,2) to [european resistor, l=$ R_{3} $,a=$ 1k\Omega $] (3,5)
-		to (7,5) 
-		to [short, -o] (7,4.5)
-		(7,4.5) node [anchor = north ]	{A};
 
-	\end{circuitikz}
-	\]
+\draw
+(0,0) to (0,-2)
+to (7,-2)
+to [short, -o] (7,2.5)
+(7,2.5) node [anchor = south]	{B}
+(0,0) to [european resistor, l=$ R_{5} $, a=$ 1k\Omega $] (2,0)
+(2,-1) to (2,0)
+to [european resistor, a=$ 100\Omega $,l=$ R_{1} $] (2,2)
+to (4,2)
+to (4,1)
+to [european resistor, a=$ R_{2} $,l=$ 2.2k\Omega $] (4,-1)
+to (2,-1)
+(4,1) to [european resistor, l=$ R_{4} $,a =$ 2.2k\Omega $] (7,1)
+(3,2) to [european resistor, l=$ R_{3} $,a=$ 1k\Omega $] (3,5)
+to (7,5) 
+to [short, -o] (7,4.5)
+(7,4.5) node [anchor = north ]	{A};
+
+\end{circuitikz}
+\end{equation*}
 	\captionof{figure}{(f)}
+	
+	
+\subsubsection*{Budowa obwodu przy pomocy stykowej p³ytki prototypowej}
+Budowa obwodu przy pomocy stykowej p³ytki prototypowej zosta³a przedstawiona w programie Fritzig na rysunku \hyperref[fig:rys13]{13}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{e_bb.pdf}
+	\caption{obwód (e)}
+	\label{fig:rys13}
+\end{figure}
+\subsubsection*{Pomiar rezystancji}
+Dla obwodu z rysunku \hyperref[eq:rys12]{12} dokonano pomiaru rezystancji od strony zacisków AB przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru rezystancji. Multimert wskaza³ wynik $69\Omega$.
+
+\subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys12]{12}}	
+\begin{gather*}
+R_{z} = R_{1}\\
+R_{z} = 2200\Omega
+\end{gather*}
 
 
 	
