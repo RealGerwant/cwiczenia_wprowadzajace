@@ -15,6 +15,7 @@
 \usepackage{anysize}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{float}
 \hypersetup{
 	colorlinks=true,
 	linkcolor=blue,
@@ -358,8 +359,12 @@ Dla obwodu z rysunku \hyperref[eq:rys8]{8} dokonano pomiaru rezystancji od stron
 
 \subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys8]{8}}	
 \begin{gather*}
-R_{z} = R_{1}\\
-R_{z} = 2200\Omega
+R_{51}= R_{5}+R_{1}\\
+R_{152}= \dfrac{1}{\dfrac{1}{R_{2}}+\dfrac{1}{R_{51}}}\\
+R_{3152}=R_{3} + R_{152}\\
+R_{z}= \dfrac{1}{\dfrac{1}{R_{4}}+\dfrac{1}{R_{3152}}}\\
+R_{z}= \dfrac{1}{\dfrac{1}{R_{4}} + \dfrac{1}{R_{3} + \dfrac{1}{\dfrac{1}{R_{2}} + \dfrac{1}{R_{5} + R_{1}}} }}\\
+R_{z}= \dfrac{1}{\dfrac{1}{1000\Omega} + \dfrac{1}{2200\Omega + \dfrac{1}{\dfrac{1}{2200\Omega} + \dfrac{1}{100\Omega + 1000\Omega}} }} \approx 745.76\Omega
 \end{gather*}
 
 \subsubsection{Obwód (e)}
@@ -399,8 +404,11 @@ Dla obwodu z rysunku \hyperref[eq:rys10]{10} dokonano pomiaru rezystancji od str
 
 \subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys10]{10}}	
 \begin{gather*}
-R_{z} = R_{1}\\
-R_{z} = 2200\Omega
+R_{34} = \dfrac{1}{\dfrac{1}{R_{3}} + \dfrac{1}{R_{4}}}\\
+R_{234} = R_{2} + R_{34}\\
+R_{z} = \dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{234}}}\\
+R_{z} = \dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{2} + \dfrac{1}{\dfrac{1}{R_{3}} + \dfrac{1}{R_{4}}}}}\\
+R_{z} = \dfrac{1}{\dfrac{1}{2200\Omega} + \dfrac{1}{2200\Omega + \dfrac{1}{\dfrac{1}{2200\Omega} + \dfrac{1}{1000\Omega}}}} \approx 1248.6486\Omega\\
 \end{gather*}
 
 \subsubsection{Obwód (f)}
@@ -445,14 +453,25 @@ Dla obwodu z rysunku \hyperref[eq:rys12]{12} dokonano pomiaru rezystancji od str
 
 \subsubsection*{Wyprowadzenie wzoru na rezystancje zastêpcze dla obwodu z rysunku \hyperref[eq:rys12]{12}}	
 \begin{gather*}
-R_{z} = R_{1}\\
-R_{z} = 2200\Omega
+R_{12} = \dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}}\\
+R_{125} = R_{12} + R_{5}\\
+R_{1245} = \dfrac{1}{\dfrac{1}{R_{4}} + \dfrac{1}{R_{125}}}\\
+R_{z} = R_{3} + R_{1245}\\
+R_{z} = R_{3}+ \dfrac{1}{\dfrac{1}{R_{4}} + \dfrac{1}{\dfrac{1}{\dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}}+ R_{5}}}\\
+R_{z} = 1000\Omega+ \dfrac{1}{\dfrac{1}{2200\Omega} + \dfrac{1}{\dfrac{1}{\dfrac{1}{100\Omega} + \dfrac{1}{2200\Omega}}+ 1000\Omega}} \approx 1731.39841
 \end{gather*}
 
+\subsubsection{Wnioski na temat ró¿nic miedzy pomiarami, a obliczeniami}
 
 	
 	\section{Pomiary napiêcia}
 	\subsection{Pomiar wartosci napiêæ wyjœciowych z zasilacza}
+	
+	\subsubsection{Cel}
+	W æwiczeniu nale¿y dokonaæ pomiaru napiêcia z sekcji DC POWER SUPPLY zestawu laboratoryjnego DF
+	6911, oraz odpowiedzieæ na pytanie, z czego mog¹ wynikaæ ewentualne ró¿nice miêdzy wartoœciami odczytanymi, a zmierzonymi.
+	
+	\subsubsection{Tabela z wartoœiami odczytów i pomiarów}
 	
 	\captionof{table}{Wartoœci odczytów i pomiarów}
 	\[
@@ -460,23 +479,197 @@ R_{z} = 2200\Omega
 	\hline
 	U [V]&Odczyt [V]& Pomiar [V]\\
 	\hline
-	1&--&--\\
+	1&1&1.107\\
 	\hline
-	3&--&--\\
+	3&3&3.172\\
 	\hline
-	4.5&--&--\\
+	4.5&4.5&4.635\\
 	\hline
-	11&--&--\\
+	11&11&11.226\\
 	\hline
-	13&--&--\\
+	13&13&13.183\\
 	\hline
-	25&--&--\\
+	25&25&25.344\\
 	\hline
-	28&--&--\\
+	28&28&28.306\\
 	\hline
 	\end{array}
 	\]
 	
+	\subsubsection{Wnioski na temat ró¿nic miedzy pomiarami, a odczytami}
+	
+	
+	\subsection{Dzielnik napiêcia}
+	\subsubsection{Cel}
+	W æwiczeniu nale¿y, przy pomocy praw Kirchhoffa, wyprowadziæ wzory oraz zale¿noœci opisuj¹ce dzielnik
+	napiêcia pokazany na rusunku \hyperref[eq:rysdz]{3}. Nastêpnie nale¿y zaprojektowaæ dzielnik napiêcia, dobieraj¹c odpowiednio rezystory i zbudowaæ go na p³ycie prototypowej w taki sposób, aby na wyjœciu $ V_{out} $ (spadek napiêcia na rezystorze $ R_{2} $) otrzymaæ kolejno napiêcia:
+	2.5V, 3.22V, 1.66V, 4V, 4.54V. Przy realizacji ka¿dego z dzielników nale¿y dokonaæ pomiarów napiêcia $ V_{out} $ i
+	porównaæ z wartoœciami otrzymanymi z wyprowadzonego wzoru i dobranych rezystorów.
+	\begin{equation*}
+	\label{eq:rysdz}
+	\begin{circuitikz}[scale=1,american]
+	
+	\draw
+	(0,0) to[V_<=5V,i_=I] (0,4)
+	to (2,4)
+	to [european resistor, a=$ R_{1} $] (2,2)	
+	to [european resistor, a=$ R_{2} $] (2,0)
+	to (0,0)
+	(2,2) to [short, -o] (3,2)
+	(3,2) node [anchor = west] {+}
+	(2,0) to [short, -o] (3,0)
+	(3,0) node [anchor = west] {--}
+	(3,1) node [anchor = west] {$V_{out}$}
+	(-1,2) node [anchor = west] {$V_{in}$};
+	\end{circuitikz}
+	\end{equation*}
+	\captionof{figure}{Rezystencjalny dzielnik napiêcia}
+	
+	\subsubsection{Wyprowadzenie wzoru na  $ V_{out} $ }
+		\begin{gather*}
+	V_{in} - IR_{1} - IR_{2} = 0\\
+		IR_{2} = V_{out}\\
+			I = \dfrac{V_{in}}{R_{1} + R_{2}}\\
+					V_{out} = \dfrac{R_{2} V_{in}}{R_{1} + R_{2}}
+					\label{eq:vout}
+		\end{gather*}
+	\subsubsection{Napiêcie na wyjœciu $V_{out} =  2.5V $}
+	\subsubsection*{Projekt dzielnika napiecia w programie Fritzing}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.9]{2_5_bb.pdf}
+		\caption{Rezystencjalny podzielnik napiêcia}
+		\label{fig:pod2_5}
+	\end{figure}
+
+	\subsubsection*{Wyznaczenie stosunku miêdzy $ R_{1} $ i $ R_{2} $ przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	2.5V = \dfrac{5VR_{2}}{R_{1}+R_{2}}\\
+	\dfrac{2.5V}{5V} = \dfrac{R_{2}}{R_{1} + R_{2}}\\
+		\frac{1}{2} = \dfrac{R_{2}}{R_{1} + R_{2}}\\
+		\frac{1}{2} R_{1} + \frac{1}{2}R_{2} = R_{2}\\
+		R_{1} = R_{2}\\
+	\end{gather*}
+	\subsubsection*{Obliczenie waroœci $ V_{out}$ dla rezystorów $ R_{1} = 2.2k\Omega, R_{2} =2.2k\Omega  $  przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	V_{out} = \dfrac{2200\Omega \cdot 5V}{2200\Omega + 2200\Omega} = 2.5V\\
+	\end{gather*}
+	\subsubsection*{Pomiar napiêcia $ V_{out} $}
+	Dla podzielnika napiêcia dokonano pomiaru napiêcia wyjœciowego $ V_{out} $ przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru napiêcia. Multimert wskaza³ wynik $2.563V$.
+	
+	
+	
+	\subsubsection{Napiêcie na wyjœciu $V_{out} =  3.22V $}
+		\subsubsection*{Projekt dzielnika napiecia w programie Fritzing}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.9]{3_22_bb.pdf}
+		\caption{Rezystencjalny podzielnik napiêcia}
+		\label{fig:pod3_22}
+	\end{figure}
+	
+	\subsubsection*{Wyznaczenie stosunku miêdzy $ R_{1} $ i $ R_{2} $ przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	\dfrac{3.22V}{5V} = \dfrac{R_{2}}{R_{1} + R_{2}}\\
+	\frac{161}{250} R_{1} + \frac{161}{250}R_{2} = R_{2}\\
+	R_{1} =\frac{89}{161} R_{2}\\
+	\end{gather*}
+	\subsubsection*{Obliczenie waroœci $ V_{out}$ dla rezystorów $ R_{1} = 1.22k\Omega, R_{2} =2.2k\Omega  $  przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	V_{out} = \dfrac{2200\Omega \cdot 5V}{2200\Omega + 1220\Omega} \approx 3.216V\\
+	\end{gather*}
+	\subsubsection*{Pomiar napiêcia $ V_{out} $}
+	Dla podzielnika napiêcia dokonano pomiaru napiêcia wyjœciowego $ V_{out} $ przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru napiêcia. Multimert wskaza³ wynik $3.351V$.
+	
+	
+	
+	
+	\subsubsection{Napiêcie na wyjœciu $V_{out} =  1.66V $}
+	
+			\subsubsection*{Projekt dzielnika napiecia w programie Fritzing}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.9]{1_66_bb.pdf}
+		\caption{Rezystencjalny podzielnik napiêcia}
+		\label{fig:pod1_66}
+	\end{figure}
+	
+	\subsubsection*{Wyznaczenie stosunku miêdzy $ R_{1} $ i $ R_{2} $ przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	\dfrac{1.66V}{5V} = \dfrac{R_{2}}{R_{1} + R_{2}}\\
+	\frac{83}{250} R_{1} + \frac{83}{250}R_{2} = R_{2}\\
+	R_{1} =\frac{167}{83} R_{2}\\
+	\end{gather*}
+	\subsubsection*{Obliczenie waroœci $ V_{out}$ dla rezystorów $ R_{1} = 4.4k\Omega, R_{2} =2.2k\Omega  $  przy u¿yciu wyprowadzonego \hyperref[eq:vout]{wzoru}}
+	\begin{gather*}
+	V_{out} = \dfrac{2200\Omega \cdot 5V}{4400\Omega + 2200\Omega} \approx 1,66\cdots V\\
+	\end{gather*}
+	\subsubsection*{Pomiar napiêcia $ V_{out} $}
+	Dla podzielnika napiêcia dokonano pomiaru napiêcia wyjœciowego $ V_{out} $ przy pomocy Multimetru RIGOL skonfigurowanego do pomiaru napiêcia. Multimert wskaza³ wynik $1695V$.
+	
+	
+	
+	
+	\subsubsection{Napiêcie na wyjœciu $V_{out} =  4V $}
+	\subsubsection{Napiêcie na wyjœciu $V_{out} =  4.54V $}
+	\section{Pomiary pr¹du sta³ego}
+	\subsection{Pomiary pr¹du w obwodzie}
+	Przy u¿yciu stykowej p³ytki prototypowej nale¿y zbudowaæ obwód pokazany na rysunku \hyperref[eq:rysob]{15} oraz dokonaæ pomiarów
+	spadku napiêcia na rezystorze R i natê¿enia pr¹du w obwodzie, pamiêtaj¹c przy tym o zapisaniu jednostek.
+	\begin{equation*}
+	\label{eq:rysob}
+	\begin{circuitikz}[scale=1,american]
+	\draw
+		(0,0) to[V_<=5V,i_=I] (0,2)
+		to [european resistor, l=$R$, a = $2440\Omega$] (4,2) 
+		to (4,0) 
+		to (0,0);
+	\end{circuitikz}
+	\end{equation*}
+	\captionof{figure}{Obwód do badania napiêæ i pr¹dów }
+	\subsection{Pomiary pr¹dów i napiêæ}
+		\begin{equation*}
+	\label{eq:rysa}
+	\begin{circuitikz}[scale=1,american]
+	\draw
+	(0,0) to[V_<=5V] (0,2)
+	to (2,2)
+	to (2,4)
+	to [european resistor, l = $ R_{4} $,a=$ 1k\Omega $] (4,4)
+	to (4,2)
+	to (6,2)
+	(0,0) to (6,0)
+	(2,0) to [european resistor, l = $ R_{1} $ , a = $ 2.2k\Omega $] (2,2)
+	(4,0) to [european resistor, l = $ R_{2} $ , a = $ 2.2k\Omega $] (4,2)
+	(2,2) to [european resistor, l = $ R_{3} $ , a = $ 2.2k\Omega $] (4,2)
+	(-1,1) node [anchor = west] {$ V_{1} $};
+	\end{circuitikz}
+	\end{equation*}
+	\captionof{figure}{Obwód (a) do badania pr¹dów i napiêæ w obwodzie }
+	
+	
+			\begin{equation*}
+	\label{eq:rysa}
+	\begin{circuitikz}[scale=1,american]
+	\draw
+	(0,0) to [european resistor, l = $ R_{2} $ , a = $ 2.2k\Omega $] (0,3)
+	to [european resistor, l = $ R_{1} $ , a = $ 2.2k\Omega $] (0,6)	
+	(3,6) to [V>=5V]  (0,6)
+	(3,6) to [european resistor, a = $ R_{4} $, l = $2.2k\Omega$] (3,3)
+	to [european resistor, a= $ R_{3} $, l= $2.2k\Omega$] (0,3)
+	(3,3) to (3,0)
+	to (0,0);
+	\end{circuitikz}
+	\end{equation*}
+	\captionof{figure}{Obwód (b) do badania pr¹dów i napiêæ w obwodzie }
+	
+	
+\newpage
+
+\tableofcontents
 
 \end{spacing}
 \end{document}

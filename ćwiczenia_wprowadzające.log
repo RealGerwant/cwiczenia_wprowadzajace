@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  11 MAR 2018 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  14 MAR 2018 17:25
 entering extended mode
 **./ćwiczenia_wprowadzające.tex
 (ćwiczenia_wprowadzające.tex
@@ -776,45 +776,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count138
+\float@exts=\toks39
+\float@box=\box40
+\@float@everytoks=\toks40
+\@floatcapt=\box41
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 
-(ćwiczenia_wprowadzające.aux)
+(ćwiczenia_wprowadzające.aux
+
+LaTeX Warning: Label `eq:rysa' multiply defined.
+
+)
 \openout1 = `ćwiczenia_wprowadzające.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 72
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 73
 .
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
+\scratchcounter=\count139
 \scratchdimen=\dimen261
-\scratchbox=\box40
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count141
+\scratchbox=\box42
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count142
 \MPscratchDim=\dimen262
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks40
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks42
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -833,208 +844,337 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 72.
+ on input line 73.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 72.
+\AtBeginShipoutBox=\box43
+Package hyperref Info: Link coloring ON on input line 73.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count144
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (ćwiczenia_wprowadzające.out) (ćwiczenia_wprowadzające.out)
 \@outlinefile=\write4
 \openout4 = `ćwiczenia_wprowadzające.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 74
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 75
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 74
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 75
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 74
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 75
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 74.
+(Font)              scaled to size 8.99994pt on input line 75.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 74.
+(Font)              scaled to size 8.99994pt on input line 75.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 74.
+(Font)              scaled to size 6.29996pt on input line 75.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 77.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 86.
+(caption)                particular \caption on input line 87.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 115.
+(caption)                particular \caption on input line 116.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 144.
+(caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
 [1
 
 {C:/Users/Piotr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 158.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 159.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 189.
+(caption)                particular \caption on input line 190.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 197.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 198.
 
 [2]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 221.
+(caption)                particular \caption on input line 222.
 See the caption package documentation for explanation.
 
-<a_bb.pdf, id=101, pagebox=cropbox, 489.83pt x 190.7125pt>
+<a_bb.pdf, id=161, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: a_bb.pdf Graphic file (type pdf)
 <use a_bb.pdf>
-Package pdftex.def Info: a_bb.pdf  used on input line 227. on input line 227.
+Package pdftex.def Info: a_bb.pdf  used on input line 228. on input line 228.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 227.
+e 228.
 [3 <./a_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 260.
+(caption)                particular \caption on input line 261.
 See the caption package documentation for explanation.
 
-<b_bb.pdf, id=142, pagebox=cropbox, 489.83pt x 190.7125pt>
+<b_bb.pdf, id=202, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: b_bb.pdf Graphic file (type pdf)
 <use b_bb.pdf>
-Package pdftex.def Info: b_bb.pdf  used on input line 266. on input line 266.
+Package pdftex.def Info: b_bb.pdf  used on input line 267. on input line 267.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 266.
+e 267.
 [4 <./b_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 304.
+(caption)                particular \caption on input line 305.
 See the caption package documentation for explanation.
 
-<c_bb.pdf, id=193, pagebox=cropbox, 489.83pt x 190.7125pt>
+<c_bb.pdf, id=253, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: c_bb.pdf Graphic file (type pdf)
 <use c_bb.pdf>
-Package pdftex.def Info: c_bb.pdf  used on input line 310. on input line 310.
+Package pdftex.def Info: c_bb.pdf  used on input line 311. on input line 311.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 310.
+e 311.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 346.
+(caption)                particular \caption on input line 347.
 See the caption package documentation for explanation.
 
-<d_bb.pdf, id=207, pagebox=cropbox, 489.83pt x 190.7125pt>
+<d_bb.pdf, id=267, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: d_bb.pdf Graphic file (type pdf)
 <use d_bb.pdf>
-Package pdftex.def Info: d_bb.pdf  used on input line 352. on input line 352.
+Package pdftex.def Info: d_bb.pdf  used on input line 353. on input line 353.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 352.
+e 353.
 [6 <./c_bb.pdf> <./d_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 387.
+(caption)                particular \caption on input line 392.
 See the caption package documentation for explanation.
 
-<e_bb.pdf, id=298, pagebox=cropbox, 489.83pt x 190.7125pt>
+<e_bb.pdf, id=358, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: e_bb.pdf Graphic file (type pdf)
 <use e_bb.pdf>
-Package pdftex.def Info: e_bb.pdf  used on input line 393. on input line 393.
+Package pdftex.def Info: e_bb.pdf  used on input line 398. on input line 398.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 393.
-[7 <./e_bb.pdf>]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 432.
-See the caption package documentation for explanation.
-
-File: e_bb.pdf Graphic file (type pdf)
-<use e_bb.pdf>
-Package pdftex.def Info: e_bb.pdf  used on input line 439. on input line 439.
-Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 439.
+e 398.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[7] [8 <./e_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 457.
+(caption)                particular \caption on input line 440.
 See the caption package documentation for explanation.
 
-[8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 482.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 482.
+File: e_bb.pdf Graphic file (type pdf)
+<use e_bb.pdf>
+Package pdftex.def Info: e_bb.pdf  used on input line 447. on input line 447.
+Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
+e 447.
+[9]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 476.
+See the caption package documentation for explanation.
+
+[10]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 526.
+See the caption package documentation for explanation.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 536.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 536.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 536.
+
+<2_5_bb.pdf, id=427, pagebox=cropbox, 489.83pt x 190.7125pt>
+File: 2_5_bb.pdf Graphic file (type pdf)
+<use 2_5_bb.pdf>
+Package pdftex.def Info: 2_5_bb.pdf  used on input line 541. on input line 541.
+
+Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
+e 541.
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 563.
+
+<3_22_bb.pdf, id=435, pagebox=cropbox, 489.83pt x 190.7125pt>
+File: 3_22_bb.pdf Graphic file (type pdf)
+<use 3_22_bb.pdf>
+Package pdftex.def Info: 3_22_bb.pdf  used on input line 568. on input line 568
+.
+Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
+e 568.
+[12 <./2_5_bb.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 589.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 589.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 589.
+
+<1_66_bb.pdf, id=487, pagebox=cropbox, 489.83pt x 190.7125pt>
+File: 1_66_bb.pdf Graphic file (type pdf)
+<use 1_66_bb.pdf>
+Package pdftex.def Info: 1_66_bb.pdf  used on input line 595. on input line 595
+.
+Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
+e 595.
+[13 <./3_22_bb.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 616.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 616.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 616.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 617.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 617.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 617.
+
+[14 <./1_66_bb.pdf>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 632.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 651.
+See the caption package documentation for explanation.
+
+[15]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 667.
+See the caption package documentation for explanation.
+
+[16] (ćwiczenia_wprowadzające.toc)
+\tf@toc=\write5
+\openout5 = `ćwiczenia_wprowadzające.toc'.
+
+ [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 675.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 675.
  (ćwiczenia_wprowadzające.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 482.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 482.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 675.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 675.
 Package rerunfilecheck Info: File `ćwiczenia_wprowadzające.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 4018B754E56BE14556B1C13590E713CE;1287.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 482.
+(rerunfilecheck)             Checksum: 1776BF3E11FB78E74EA81B66C11763C4;2602.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 675.
  ) 
 Here is how much of TeX's memory you used:
- 36190 strings out of 493312
- 900360 string characters out of 3138898
- 1139762 words of memory out of 3000000
- 39161 multiletter control sequences out of 15000+200000
+ 36819 strings out of 493312
+ 912441 string characters out of 3138898
+ 1153503 words of memory out of 3000000
+ 39737 multiletter control sequences out of 15000+200000
  44148 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,747b,902s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,96p,747b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -1043,9 +1183,9 @@ helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on ćwiczenia_wprowadzające.pdf (9 pages, 1887065 bytes).
+Output written on ćwiczenia_wprowadzające.pdf (17 pages, 2995985 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 666 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 
