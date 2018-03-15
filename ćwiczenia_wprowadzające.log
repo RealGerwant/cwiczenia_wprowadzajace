@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  15 MAR 2018 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  15 MAR 2018 17:03
 entering extended mode
 **./ćwiczenia_wprowadzające.tex
 (ćwiczenia_wprowadzające.tex
@@ -949,7 +949,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 228.
 See the caption package documentation for explanation.
 
-<a_bb.pdf, id=150, pagebox=cropbox, 489.83pt x 190.7125pt>
+<a_bb.pdf, id=147, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: a_bb.pdf Graphic file (type pdf)
 <use a_bb.pdf>
 Package pdftex.def Info: a_bb.pdf  used on input line 234. on input line 234.
@@ -961,7 +961,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 267.
 See the caption package documentation for explanation.
 
-<b_bb.pdf, id=192, pagebox=cropbox, 489.83pt x 190.7125pt>
+<b_bb.pdf, id=189, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: b_bb.pdf Graphic file (type pdf)
 <use b_bb.pdf>
 Package pdftex.def Info: b_bb.pdf  used on input line 273. on input line 273.
@@ -973,7 +973,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 311.
 See the caption package documentation for explanation.
 
-<c_bb.pdf, id=241, pagebox=cropbox, 489.83pt x 190.7125pt>
+<c_bb.pdf, id=238, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: c_bb.pdf Graphic file (type pdf)
 <use c_bb.pdf>
 Package pdftex.def Info: c_bb.pdf  used on input line 317. on input line 317.
@@ -988,7 +988,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 353.
 See the caption package documentation for explanation.
 
-<d_bb.pdf, id=255, pagebox=cropbox, 489.83pt x 190.7125pt>
+<d_bb.pdf, id=252, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: d_bb.pdf Graphic file (type pdf)
 <use d_bb.pdf>
 Package pdftex.def Info: d_bb.pdf  used on input line 359. on input line 359.
@@ -1000,7 +1000,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 398.
 See the caption package documentation for explanation.
 
-<e_bb.pdf, id=347, pagebox=cropbox, 489.83pt x 190.7125pt>
+<e_bb.pdf, id=344, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: e_bb.pdf Graphic file (type pdf)
 <use e_bb.pdf>
 Package pdftex.def Info: e_bb.pdf  used on input line 404. on input line 404.
@@ -1044,7 +1044,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 543.
 
-<2_5_bb.pdf, id=417, pagebox=cropbox, 489.83pt x 190.7125pt>
+<2_5_bb.pdf, id=414, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 2_5_bb.pdf Graphic file (type pdf)
 <use 2_5_bb.pdf>
 Package pdftex.def Info: 2_5_bb.pdf  used on input line 548. on input line 548.
@@ -1064,7 +1064,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 570.
 
-<3_22_bb.pdf, id=429, pagebox=cropbox, 489.83pt x 190.7125pt>
+<3_22_bb.pdf, id=426, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 3_22_bb.pdf Graphic file (type pdf)
 <use 3_22_bb.pdf>
 Package pdftex.def Info: 3_22_bb.pdf  used on input line 575. on input line 575
@@ -1084,7 +1084,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 596.
 
-<1_66_bb.pdf, id=482, pagebox=cropbox, 489.83pt x 190.7125pt>
+<1_66_bb.pdf, id=479, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 1_66_bb.pdf Graphic file (type pdf)
 <use 1_66_bb.pdf>
 Package pdftex.def Info: 1_66_bb.pdf  used on input line 602. on input line 602
@@ -1104,7 +1104,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 623.
 
-<4_bb.pdf, id=522, pagebox=cropbox, 489.83pt x 190.7125pt>
+<4_bb.pdf, id=519, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 4_bb.pdf Graphic file (type pdf)
 <use 4_bb.pdf>
 Package pdftex.def Info: 4_bb.pdf  used on input line 629. on input line 629.
@@ -1123,7 +1123,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 648.
 
-<4_54_bb.pdf, id=562, pagebox=cropbox, 489.83pt x 190.7125pt>
+<4_54_bb.pdf, id=559, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 4_54_bb.pdf Graphic file (type pdf)
 <use 4_54_bb.pdf>
 Package pdftex.def Info: 4_54_bb.pdf  used on input line 653. on input line 653
@@ -1174,14 +1174,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 795.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 795.
 Package rerunfilecheck Info: File `ćwiczenia_wprowadzające.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 1AE8EE9463162F7EA1D461CBCA0ABC6E;2056.
+(rerunfilecheck)             Checksum: 0A746612F3089174EDFC893374C6097A;1940.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 795.
  ) 
 Here is how much of TeX's memory you used:
- 36855 strings out of 493312
- 912787 string characters out of 3138898
- 1148404 words of memory out of 3000000
- 39742 multiletter control sequences out of 15000+200000
+ 36854 strings out of 493312
+ 912758 string characters out of 3138898
+ 1148400 words of memory out of 3000000
+ 39741 multiletter control sequences out of 15000+200000
  44148 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,96p,747b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1193,9 +1193,9 @@ helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on ćwiczenia_wprowadzające.pdf (20 pages, 3722759 bytes).
+Output written on ćwiczenia_wprowadzające.pdf (20 pages, 3722192 bytes).
 PDF statistics:
- 755 PDF objects out of 1000 (max. 8388607)
+ 751 PDF objects out of 1000 (max. 8388607)
  136 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,7 +5,6 @@
 \contentsline {subsection}{\numberline {1.3}Cewki}{2}{subsection.1.3}
 \contentsline {section}{\numberline {2}Obwody}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Obliczanie rezystancji zast\k epczej}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Wyprowadzenie wzoru i obliczenie rezystancji zast\k epczej}{3}{subsubsection.2.1.1}
 \contentsline {subsection}{\numberline {2.2}Budowanie obwod\'ow rezystancyjnych}{3}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Obw\'od (a)}{4}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Obw\'od (b)}{5}{subsubsection.2.2.2}
