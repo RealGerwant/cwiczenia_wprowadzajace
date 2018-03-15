@@ -4,30 +4,24 @@
 \BOOKMARK [2][-]{subsection.1.3}{Cewki}{section.1}% 4
 \BOOKMARK [1][-]{section.2}{Obwody}{}% 5
 \BOOKMARK [2][-]{subsection.2.1}{Obliczanie rezystancji zastepczej}{section.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Cel}{subsection.2.1}% 7
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Wyprowadzenie wzoru i obliczenie rezystancji zastepczej}{subsection.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Budowanie obwod\363w rezystancyjnych}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Cel}{subsection.2.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Obw\363d \(a\)}{subsection.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Obw\363d \(b\)}{subsection.2.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Obw\363d \(c\)}{subsection.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.5}{Obw\363d \(d\)}{subsection.2.2}% 14
-\BOOKMARK [3][-]{subsubsection.2.2.6}{Obw\363d \(e\)}{subsection.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.7}{Obw\363d \(f\)}{subsection.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.8}{Wnioski na temat r\363znic miedzy pomiarami, a obliczeniami}{subsection.2.2}% 17
-\BOOKMARK [1][-]{section.3}{Pomiary napiecia}{}% 18
-\BOOKMARK [2][-]{subsection.3.1}{Pomiar wartosci napiec wyjsciowych z zasilacza}{section.3}% 19
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Cel}{subsection.3.1}% 20
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Tabela z wartosiami odczyt\363w i pomiar\363w}{subsection.3.1}% 21
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Wnioski na temat r\363znic miedzy pomiarami, a odczytami}{subsection.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.2}{Dzielnik napiecia}{section.3}% 23
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Cel}{subsection.3.2}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Wyprowadzenie wzoru na \040Vout \040}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Napiecie na wyjsciu Vout = 2.5V }{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Napiecie na wyjsciu Vout = 3.22V }{subsection.3.2}% 27
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Napiecie na wyjsciu Vout = 1.66V }{subsection.3.2}% 28
-\BOOKMARK [3][-]{subsubsection.3.2.6}{Napiecie na wyjsciu Vout = 4V }{subsection.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.7}{Napiecie na wyjsciu Vout = 4.54V }{subsection.3.2}% 30
-\BOOKMARK [1][-]{section.4}{Pomiary pradu sta\233ego}{}% 31
-\BOOKMARK [2][-]{subsection.4.1}{Pomiary pradu w obwodzie}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.2}{Pomiary prad\363w i napiec}{section.4}% 33
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Wyprowadzenie wzoru i obliczenie rezystancji zastepczej}{subsection.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Budowanie obwod\363w rezystancyjnych}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Obw\363d \(a\)}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Obw\363d \(b\)}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Obw\363d \(c\)}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Obw\363d \(d\)}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Obw\363d \(e\)}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Obw\363d \(f\)}{subsection.2.2}% 14
+\BOOKMARK [1][-]{section.3}{Pomiary napiecia}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Pomiar wartosci napiec wyjsciowych z zasilacza}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Dzielnik napiecia}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Napiecie na wyjsciu Vout = 2.5V }{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Napiecie na wyjsciu Vout = 3.22V }{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Napiecie na wyjsciu Vout = 1.66V }{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Napiecie na wyjsciu Vout = 4V }{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Napiecie na wyjsciu Vout = 4.54V }{subsection.3.2}% 22
+\BOOKMARK [1][-]{section.4}{Pomiary pradu sta\233ego}{}% 23
+\BOOKMARK [2][-]{subsection.4.1}{Pomiary pradu w obwodzie}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.2}{Pomiary prad\363w i napiec}{section.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Obw\363d \(a\)}{subsection.4.2}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Obw\363d \(b\)}{subsection.4.2}% 27
