@@ -1,0 +1,27 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}\IeC {\'C}wiczenia wprowadaj\IeC {\k a}ce}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Rezystory}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Kondensatory}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Cewki}{2}{subsection.1.3}
+\contentsline {section}{\numberline {2}Obwody}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Obliczanie rezystancji zast\IeC {\k e}pczej}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Budowanie obwod\IeC {\'o}w rezystancyjnych}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Obw\IeC {\'o}d (a)}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Obw\IeC {\'o}d (b)}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Obw\IeC {\'o}d (c)}{6}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Obw\IeC {\'o}d (d)}{7}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Obw\IeC {\'o}d (e)}{9}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Obw\IeC {\'o}d (f)}{10}{subsubsection.2.2.6}
+\contentsline {section}{\numberline {3}Pomiary napi\IeC {\k e}cia}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Pomiar warto\IeC {\'s}ci napi\IeC {\k e}\IeC {\'c} wyj\IeC {\'s}ciowych z zasilacza}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dzielnik napi\IeC {\k e}cia}{12}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Napi\IeC {\k e}cie na wyj\IeC {\'s}ciu $V_{out} = 2.5V $}{13}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Napi\IeC {\k e}cie na wyj\IeC {\'s}ciu $V_{out} = 3.22V $}{14}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Napi\IeC {\k e}cie na wyj\IeC {\'s}ciu $V_{out} = 1.66V $}{15}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Napi\IeC {\k e}cie na wyj\IeC {\'s}ciu $V_{out} = 4V $}{16}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Napi\IeC {\k e}cie na wyj\IeC {\'s}ciu $V_{out} = 4.54V $}{17}{subsubsection.3.2.5}
+\contentsline {section}{\numberline {4}Pomiary pr\IeC {\k a}du sta\IeC {\l }ego}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Pomiary pr\IeC {\k a}du w obwodzie}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Pomiary pr\IeC {\k a}d\IeC {\'o}w i napi\IeC {\k e}\IeC {\'c}}{19}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Obw\IeC {\'o}d (a)}{19}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Obw\IeC {\'o}d (b)}{21}{subsubsection.4.2.2}
