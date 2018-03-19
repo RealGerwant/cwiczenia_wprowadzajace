@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  19 MAR 2018 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.26)  19 MAR 2018 20:28
 entering extended mode
 **./Sprawozdanie1.tex
 (Sprawozdanie1.tex
@@ -1248,225 +1248,225 @@ See the caption package documentation for explanation.
 [2]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 194.
+(caption)                particular \caption on input line 198.
 See the caption package documentation for explanation.
 
 [3]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 210.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 214.
 
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 234.
+(caption)                particular \caption on input line 238.
 See the caption package documentation for explanation.
 
-<a_bb.pdf, id=155, pagebox=cropbox, 489.83pt x 190.7125pt>
+<a_bb.pdf, id=156, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: a_bb.pdf Graphic file (type pdf)
 <use a_bb.pdf>
-Package pdftex.def Info: a_bb.pdf  used on input line 240. on input line 240.
+Package pdftex.def Info: a_bb.pdf  used on input line 244. on input line 244.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 240.
+e 244.
 [4 <./a_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 273.
+(caption)                particular \caption on input line 277.
 See the caption package documentation for explanation.
 
-<b_bb.pdf, id=195, pagebox=cropbox, 489.83pt x 190.7125pt>
+<b_bb.pdf, id=196, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: b_bb.pdf Graphic file (type pdf)
 <use b_bb.pdf>
-Package pdftex.def Info: b_bb.pdf  used on input line 279. on input line 279.
+Package pdftex.def Info: b_bb.pdf  used on input line 283. on input line 283.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 279.
+e 283.
 [5 <./b_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 317.
+(caption)                particular \caption on input line 321.
 See the caption package documentation for explanation.
 
-<c_bb.pdf, id=244, pagebox=cropbox, 489.83pt x 190.7125pt>
+<c_bb.pdf, id=245, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: c_bb.pdf Graphic file (type pdf)
 <use c_bb.pdf>
-Package pdftex.def Info: c_bb.pdf  used on input line 323. on input line 323.
+Package pdftex.def Info: c_bb.pdf  used on input line 327. on input line 327.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 323.
+e 327.
 [6]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 359.
+(caption)                particular \caption on input line 363.
 See the caption package documentation for explanation.
 
-<d_bb.pdf, id=257, pagebox=cropbox, 489.83pt x 190.7125pt>
+<d_bb.pdf, id=258, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: d_bb.pdf Graphic file (type pdf)
 <use d_bb.pdf>
-Package pdftex.def Info: d_bb.pdf  used on input line 365. on input line 365.
+Package pdftex.def Info: d_bb.pdf  used on input line 369. on input line 369.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 365.
+e 369.
 [7 <./c_bb.pdf>] [8 <./d_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 404.
+(caption)                particular \caption on input line 408.
 See the caption package documentation for explanation.
 
-<e_bb.pdf, id=357, pagebox=cropbox, 489.83pt x 190.7125pt>
+<e_bb.pdf, id=358, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: e_bb.pdf Graphic file (type pdf)
 <use e_bb.pdf>
-Package pdftex.def Info: e_bb.pdf  used on input line 410. on input line 410.
+Package pdftex.def Info: e_bb.pdf  used on input line 414. on input line 414.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 410.
+e 414.
 [9 <./e_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 452.
+(caption)                particular \caption on input line 456.
 See the caption package documentation for explanation.
 
 File: e_bb.pdf Graphic file (type pdf)
 <use e_bb.pdf>
-Package pdftex.def Info: e_bb.pdf  used on input line 459. on input line 459.
+Package pdftex.def Info: e_bb.pdf  used on input line 463. on input line 463.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 459.
+e 463.
 [10] [11]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 517.
+(caption)                particular \caption on input line 521.
 See the caption package documentation for explanation.
 
 [12]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 549.
+(caption)                particular \caption on input line 553.
 See the caption package documentation for explanation.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 559.
+(hyperref)                removing `math shift' on input line 563.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 559.
+(hyperref)                removing `subscript' on input line 563.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 559.
+(hyperref)                removing `math shift' on input line 563.
 
-<2_5_bb.pdf, id=428, pagebox=cropbox, 489.83pt x 190.7125pt>
+<2_5_bb.pdf, id=429, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 2_5_bb.pdf Graphic file (type pdf)
 <use 2_5_bb.pdf>
-Package pdftex.def Info: 2_5_bb.pdf  used on input line 564. on input line 564.
+Package pdftex.def Info: 2_5_bb.pdf  used on input line 568. on input line 568.
 
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 564.
+e 568.
 [13 <./2_5_bb.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 586.
+(hyperref)                removing `math shift' on input line 590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 586.
+(hyperref)                removing `subscript' on input line 590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 586.
+(hyperref)                removing `math shift' on input line 590.
 
-<3_22_bb.pdf, id=480, pagebox=cropbox, 489.83pt x 190.7125pt>
+<3_22_bb.pdf, id=481, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 3_22_bb.pdf Graphic file (type pdf)
 <use 3_22_bb.pdf>
-Package pdftex.def Info: 3_22_bb.pdf  used on input line 591. on input line 591
+Package pdftex.def Info: 3_22_bb.pdf  used on input line 595. on input line 595
 .
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 591.
+e 595.
 [14 <./3_22_bb.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 612.
+(hyperref)                removing `subscript' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 612.
+(hyperref)                removing `math shift' on input line 616.
 
-<1_66_bb.pdf, id=520, pagebox=cropbox, 489.83pt x 190.7125pt>
+<1_66_bb.pdf, id=521, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 1_66_bb.pdf Graphic file (type pdf)
 <use 1_66_bb.pdf>
-Package pdftex.def Info: 1_66_bb.pdf  used on input line 618. on input line 618
+Package pdftex.def Info: 1_66_bb.pdf  used on input line 622. on input line 622
 .
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 618.
+e 622.
 [15 <./1_66_bb.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 639.
+(hyperref)                removing `subscript' on input line 643.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 639.
+(hyperref)                removing `math shift' on input line 643.
 
-<4_bb.pdf, id=560, pagebox=cropbox, 489.83pt x 190.7125pt>
+<4_bb.pdf, id=561, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 4_bb.pdf Graphic file (type pdf)
 <use 4_bb.pdf>
-Package pdftex.def Info: 4_bb.pdf  used on input line 645. on input line 645.
+Package pdftex.def Info: 4_bb.pdf  used on input line 649. on input line 649.
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 645.
+e 649.
 [16 <./4_bb.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 664.
+(hyperref)                removing `math shift' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 664.
+(hyperref)                removing `subscript' on input line 668.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 664.
+(hyperref)                removing `math shift' on input line 668.
 
-<4_54_bb.pdf, id=608, pagebox=cropbox, 489.83pt x 190.7125pt>
+<4_54_bb.pdf, id=609, pagebox=cropbox, 489.83pt x 190.7125pt>
 File: 4_54_bb.pdf Graphic file (type pdf)
 <use 4_54_bb.pdf>
-Package pdftex.def Info: 4_54_bb.pdf  used on input line 669. on input line 669
+Package pdftex.def Info: 4_54_bb.pdf  used on input line 673. on input line 673
 .
 Package pdftex.def Info: Requested size: 440.84293pt x 171.63965pt on input lin
-e 669.
+e 673.
 [17 <./4_54_bb.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 703.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 716.
+(caption)                particular \caption on input line 709.
 See the caption package documentation for explanation.
 
 [18]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 746.
+(caption)                particular \caption on input line 722.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 765.
+(caption)                particular \caption on input line 752.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 771.
 See the caption package documentation for explanation.
 
 [19] [20]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 809.
+(caption)                particular \caption on input line 815.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 828.
+(caption)                particular \caption on input line 834.
 See the caption package documentation for explanation.
 
 [21] [22] (Sprawozdanie1.toc)
@@ -1474,20 +1474,20 @@ See the caption package documentation for explanation.
 \openout5 = `Sprawozdanie1.toc'.
 
  [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 873.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 873.
  (Sprawozdanie1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 867.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 867.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 873.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 873.
 Package rerunfilecheck Info: File `Sprawozdanie1.out' has not changed.
 (rerunfilecheck)             Checksum: 0A746612F3089174EDFC893374C6097A;1940.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 867.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 873.
  ) 
 Here is how much of TeX's memory you used:
- 37103 strings out of 493312
- 913866 string characters out of 3138898
- 1147635 words of memory out of 3000000
- 39975 multiletter control sequences out of 15000+200000
+ 37135 strings out of 493312
+ 914446 string characters out of 3138898
+ 1148296 words of memory out of 3000000
+ 40005 multiletter control sequences out of 15000+200000
  44148 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,96p,735b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1499,9 +1499,9 @@ helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on Sprawozdanie1.pdf (23 pages, 3732808 bytes).
+Output written on Sprawozdanie1.pdf (23 pages, 3733789 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
